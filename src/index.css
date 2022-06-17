@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: relative;
+  margin-top: 100px;
+  width: 700px;
+  height: 500px;
+  background-color: rgb(212, 212, 212);
+}
+
+h1 {
+  text-align: center;
+}
+
+.main_block_todo {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #fff;
+  width: 660px;
+  height: 400px;
+  overflow: scroll;
+}
+
+.block_elem.true {
+  text-decoration: line-through;
+}
+
+.form_input {
+  width: 618px;
+  padding-left: 20px;
+  margin: 0;
+  height: 50px;
+  border: none;
+  border-bottom: 3px solid rgb(50, 27, 180);
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.block_elem {
+  display: flex;
+  height: 40px;
+  border: 1px solid rgb(248, 11, 11);
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.block_elem input {
+  margin: 0 10px;
+}
+
+.form_input:focus {
+  outline: none;
+}
+
+.flex_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.flex_buttons {
+  margin: 20px 0 30px 0;
+}
+
+.flex_buttons button {
+  width: 130px;
+  height: 40px;
+  background-color: rgb(50, 27, 180);
+  color: #fff;
+  cursor: pointer;
+}
